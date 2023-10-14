@@ -5,6 +5,8 @@ html { box-sizing: border-box; }
 body {
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: white;
 }
 
 .paticka {
@@ -33,3 +35,30 @@ Nastav je receptům jako obrázky na pozadí (tj. nepřidávej je jako <img> do 
 Na rozložení prvků NEPOUŽÍVEJ absolutní pozicování, ale pouze flexboxy.
 Flexboxy mohou být vnořené do sebe, klidně několikrát.
 */
+
+h1,
+h2 {
+	font-family: 'Raleway', sans-serif;;
+	font-weight: 800;
+}
+.meal {
+	background-size: cover;
+}
+.main {
+	background-image: url(images/salat.jpg);
+}
+
+.mexico {
+	background-image: url(images/tacos.jpg);
+}
+
+.beans {
+	background-image: url(images/cizrna.jpg);
+}
+
+.burgers {
+	background-image: url(images/burger.jpg);
+}
+
+
+
