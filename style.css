@@ -121,6 +121,29 @@ h2 {
 		display: flex;
 		flex-wrap: wrap;
 	}
-
 }
 
+@media screen and (min-width: 860px) {
+	h1 {
+		font-size: 48px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+	.main {
+		min-height: 400px;
+		flex: 0 0 calc((100% - 4px) / 3);
+	}
+	.other {
+		flex: 0 0 calc ((100%) * 2 / 3);
+	}
+	.just {
+		min-height: 200px;
+		flex: 0 0 calc((100% - 4px) / 2);
+	}
+	.content {
+		display: flex;
+	}
+
+	
+}
