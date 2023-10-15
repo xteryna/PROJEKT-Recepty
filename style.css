@@ -101,6 +101,26 @@ h2 {
 }
 
 @media screen and (min-width: 480px) {
-	
+	h1 {
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	.main {
+		min-height: 250px;
+	}
+	.just {
+		min-height: 150px;
+		flex: 0 0 calc((100% - 4px) / 2);
+	}
+	.meal {
+		padding: 20px;
+	}
+	.other {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 }
 
